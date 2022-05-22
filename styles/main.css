@@ -1,0 +1,45 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --purple: hsl(228, 45%, 44%);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url('../fonts/outfit/Outfit-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url('../fonts/outfit/Outfit-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: Outfit; 
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a[target="_blank"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
+}
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: var(--purple); 
+}
