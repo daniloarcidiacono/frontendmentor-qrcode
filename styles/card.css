@@ -6,7 +6,7 @@
     margin: auto;
     padding: 0.8rem;     
     text-align: center;
-    width: 256px;
+    max-width: 256px;
 }
 
 .card__image {
